@@ -12,4 +12,4 @@ Para el curso necesitas:
 * Saber HTML CSS
 * Una conexión mas o menos estable 😉
 
-Mi el resultado [aquí ](https://felixverdugo.github.io "aquí ")
+Mi el resultado [**_aquí_**](https://felixverdugo.github.io/reponsive-proyect "aquí ")
