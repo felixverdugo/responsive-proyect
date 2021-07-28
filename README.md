@@ -1,2 +1,2 @@
-# resposive-proyect
-En este repositorio subiré el código del curso de responsive design
+# Proyecto Responsive
+Este proyecto esta creado en el curso de ["resposive-desing"]
