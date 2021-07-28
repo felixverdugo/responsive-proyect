@@ -6,6 +6,7 @@ Dado por el mítico Dieguito de Granda 😍😍😍😍😍😍
 En ese curso aprenderas:
 * Media queries
 * Responsive desing 😐
+* Aprender a manejar Herramientas de Diseño
 * Maquetacion de un proyecto real
 
 Para el curso necesitas: 
@@ -13,3 +14,5 @@ Para el curso necesitas:
 * Una conexión mas o menos estable 😉
 
 Mi el resultado [**_aquí_**](https://felixverdugo.github.io/resposive-proyect/ "aquí ")
+
+Hecho con 💚 por el Gran Platzi Team
