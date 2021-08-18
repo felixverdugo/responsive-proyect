@@ -12,11 +12,172 @@
 }
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 body {
   margin: 0;
   font-family: "DM Sans", sans-serif;
+}
+/* Estilos Iniciales */
+.title {
+  width: 260px;
+  font-size: 2.4rem;
+  color: var(--warm-black);
+}
+.text {
+  line-height: 2rem;
+  font-size: 14px;
+  color: var(--warm-black);
+}
+.subtitle {
+  font-size: 1.8rem;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* Estilos de Header */
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 320px;
+  background: linear-gradient(
+    207.8deg,
+    var(--black) 16.69%,
+    var(--bitcoin-orange) 100%
+  );
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 15px 0;
+}
+.logo-container::after {
+  content: "Batabit";
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--bitcoin-orange);
+}
+.header__title {
+  color: #fff;
+}
+.header__text {
+  width: 280px;
+  height: 36px;
+  color: var(--soft-orange);
+}
+.header__button {
+  position: absolute;
+  bottom: -20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 29px;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--warm-black);
+  text-decoration: none;
+}
+.header__button::after {
+  content: url("../assets/icons/down-arrow.svg");
+  margin-left: 20px;
+}
+/* Section 1 */
+.section1 {
+  background-color: var(--off-white);
+}
+.section1__title {
+  line-height: 26px;
+}
+.section1__text {
+  margin: 24px 0;
+  line-height: 18px;
+  color: #757575;
+  width: 288px;
+}
+/* Tabla de Section 1 */
+.table-container {
+}
+.table {
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: var(--just-white);
+  border-collapse: collapse;
+}
+.table__title {
+  margin: 20px 20px 20px 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--bitcoin-orange);
+  text-align: start;
+}
+
+tr td:nth-child(1) {
+  color: #b5b0ac;
+}
+tr td:nth-child(2) {
+  color: #757575;
+}
+td {
+  text-align: start;
+  font-size: 1.6rem;
+  padding: 10px 25px 10px 10px;
+  border-bottom: 1px solid var(--off-white);
+}
+col:nth-child(2) {
+  border-left: 1px solid var(--off-white);
+}
+.table__down::after {
+  content: url("../assets/icons/trending-down.svg");
+  margin-left: 20px;
+}
+.table__up::after {
+  content: url("../assets/icons/trending-up.svg");
+  margin-left: 20px;
+}
+/* Section 2 */
+
+.section2 {
+  background-color: #201e1c;
+  padding-bottom: 20px;
+}
+.section2__title {
+  color: var(--just-white);
+  margin: 50px 0 10px 0;
+}
+.section2__text {
+  margin-bottom: 30px;
+  color: #808080;
+}
+.section2__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 15px;
+  width: 90vw;
+  text-align: start;
+}
+.section2__cards div {
+  padding: 20px;
+  background-color: #282623;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+.cards__title {
+  color: var(--just-white);
+}
+.cards__desc {
+  color: #808080;
 }
