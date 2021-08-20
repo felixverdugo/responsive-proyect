@@ -113,6 +113,7 @@ body::-webkit-scrollbar-thumb:active {
 .section1 {
   background-color: var(--off-white);
 }
+
 .section1__title {
   line-height: 26px;
 }
@@ -127,7 +128,7 @@ body::-webkit-scrollbar-thumb:active {
   position: relative;
 }
 .table-container::after {
-  content: url("/assets/icons/right-arrow.svg");
+  content: url(../assets/icons/right-arrow.svg);
   position: absolute;
   top: 50%;
   right: -30px;
