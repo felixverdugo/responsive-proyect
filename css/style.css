@@ -224,6 +224,7 @@ col:nth-child(2) {
 .section3 {
   width: 100%;
   min-width: 320px;
+  justify-content: center;
   height: 60vh;
   background-image: url(../assets/img/bitcoinbaby2x.jpg);
   background-position: center;
@@ -231,8 +232,9 @@ col:nth-child(2) {
   background-repeat: no-repeat;
 }
 .section3__title {
-  margin-top: 55px;
+  /* margin-top: 55px; */
   color: #fff;
+  align-self: center;
 }
 /* Section4 */
 .section4 {
