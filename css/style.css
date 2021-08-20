@@ -345,3 +345,24 @@ col:nth-child(2) {
 .tag p {
   margin: 0;
 }
+
+/* Footer */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 220px));
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.3rem;
+  background-color: var(--bitcoin-orange);
+}
+.footer__item{
+  list-style: none;
+}
+.footer__link{
+  text-decoration: none;
+  color: white;
+  line-height: 18px;
+}
