@@ -1,6 +1,7 @@
 :root {
   /* Colors */
   --bitcoin-orange: #f7931a;
+  --bitcoin-orange-active: #a16214;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
@@ -22,6 +23,17 @@ html {
 body {
   margin: 0;
   font-family: "DM Sans", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--warm-black);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+}
+body::-webkit-scrollbar-thumb:active {
+  background-color: var(--bitcoin-orange-active);
 }
 /* Estilos Iniciales */
 .title {
@@ -224,6 +236,7 @@ col:nth-child(2) {
 /* Section4 */
 .section4 {
   background-color: var(--off-white);
+  height: 500px;
 }
 .section4__title {
   width: 288px;
@@ -238,15 +251,16 @@ col:nth-child(2) {
 
 .plans {
   display: flex;
+  overflow-y: auto;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  height: 316px;
+  height: 300px;
   width: 80%;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  margin: 30px;
 }
+
 
 .plans .plans__card {
   position: relative;
@@ -255,6 +269,7 @@ col:nth-child(2) {
   flex-direction: column;
   justify-content: center;
   height: 250px;
+  margin-top: 20px;
   min-width: 250px;
   max-width: 300px;
   align-items: center;
