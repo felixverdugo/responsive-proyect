@@ -319,7 +319,7 @@ col:nth-child(2) {
   background-color: #faf8f7;
 }
 .plans--btn::after {
-  content: url(../assets/icons/orange-right-arrow.svg);
+  content: url(../assets/icons/orange-right-arrow.svg); 
   position: absolute;
   font-size: 1.4rem;
   font-weight: bold;
